@@ -1,0 +1,10 @@
+[general]
+root = "."
+log-level = "info"
+
+[advanced]
+directory-listing = false
+
+[[routes]]
+route = "/"
+serve = "index.html"

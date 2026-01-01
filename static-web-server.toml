@@ -1,5 +1,5 @@
 [general]
-root = "."
+root = "libreflorr.io-main"
 log-level = "info"
 
 [advanced]
@@ -7,4 +7,4 @@ directory-listing = false
 
 [[routes]]
 route = "/"
-serve = "index.html"
+serve = "libreflorr.io-main/index.html"

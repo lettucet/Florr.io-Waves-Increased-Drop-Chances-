@@ -7,4 +7,4 @@ directory-listing = false
 
 [[routes]]
 route = "/"
-serve = "libreflorr.io-main/index.html"
+serve = "index.html"

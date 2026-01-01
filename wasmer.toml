@@ -1,0 +1,11 @@
+[package]
+name = "florr-waves"
+version = "1.0.0"
+
+[dependencies]
+"wasmer/static-web-server" = "latest"
+
+[[command]]
+name = "serve"
+module = "wasmer/static-web-server"
+runner = "wasi"
